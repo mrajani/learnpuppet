@@ -1,0 +1,6 @@
+---
+ntp_servers:
+  - 0.us.ntp.org
+  - 1.us.ntp.org
+  - 2.us.ntp.org
+  

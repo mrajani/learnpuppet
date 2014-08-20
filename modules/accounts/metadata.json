@@ -1,0 +1,39 @@
+{
+  "name": "deric-accounts",
+  "version": "0.1.0",
+  "source": "https://github.com/deric/puppet-accounts",
+  "author": "Tomas Barton",
+  "license": "Apache License, Version 2.0",
+  "summary": "Module for managing user accounts and groups.",
+  "description": "Simple user management with hiera support.",
+  "project_page": "https://github.com/deric/puppet-accounts",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 0.1.7"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "5d7be7e07cbe46652866a4f53302e03e",
+    "Gemfile.lock": "b7726ffd24beba85599872edbfbffad4",
+    "Modulefile": "830f1d89e5c7c7cd299bda4c37f8204e",
+    "Puppetfile": "fcec0b952a23a3e744c080d2f0300fa4",
+    "Puppetfile.lock": "c89218660bb1f327558fb0a998a825f8",
+    "README.md": "b9865d13481634c7a590a88246e66fe1",
+    "Rakefile": "8c0d4e338d74147d2734006bf8414e33",
+    "manifests/group.pp": "fd83da4f7fe42d01ce940c6efe7966d7",
+    "manifests/groups.pp": "46275a654729d66eba1ef0f4d2f9b3c7",
+    "manifests/init.pp": "f55688a2033316f44b07e0974d215253",
+    "manifests/user.pp": "ab1df5c2771b685c965203617b7ed64d",
+    "manifests/users.pp": "24559f951ca6080332d32a555084103f",
+    "spec/classes/groups_spec.rb": "06e92039acb2dd2974210bd5d8f911bc",
+    "spec/classes/users_spec.rb": "28ddbedaa7c986b167d0272eb025015d",
+    "spec/defines/group_spec.rb": "6d89cb909a79f45acb70881c638b615f",
+    "spec/defines/user_spec.rb": "99f4be373c816ef90951b8176bf079a4",
+    "spec/spec_helper.rb": "adb5755c23f818e814efb8247304f926",
+    "spec/spec_helper_system.rb": "9e4b3dc69ff39ce7e467716cd987cb7f"
+  }
+}

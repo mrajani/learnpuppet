@@ -1,0 +1,23 @@
+{
+  "author": "iono",
+  "summary": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "source": "From Scratch",
+  "name": "iono-ntp",
+  "description": "UNKNOWN",
+  "checksums": {
+    "README": "2291f549cbf5b762f6ee7002b1293c47",
+    "tests/init.pp": "6c8e71361bfa267266a8e9d168072af7",
+    "Modulefile": "4fe7b566df29c4369d40344f9ee5abac",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "manifests/init.pp": "bfbbafbbea0203b35310902b0d74a2f5"
+  },
+  "license": "Apache License, Version 2.0",
+  "project_page": "UNKNOWN",
+  "types": [
+
+  ],
+  "version": "0.1.0"
+}

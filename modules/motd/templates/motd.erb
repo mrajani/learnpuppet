@@ -1,0 +1,21 @@
+The operating system is <%= operatingsystem %>
+The free memory is <%= memoryfree %>
+The domain is <%= domain %>
+The linux is <%= kernel %>
+
+what is my role " <%= system_role %> "
+
+The message is <%= scope.lookupvar('::system_role') -%>
+
+<% if scope.lookupvar('::is_virtual') == "true" -%>
+this is a virtual machine
+<% end -%>
+
+
+<% if scope.lookupvar('::backup_agent') == "no" -%>
+i dont need a backup agent
+<% end -%>
+
+<% @servers.each do |server| -%>
+server <%= server %>
+<% end -%>

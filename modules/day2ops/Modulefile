@@ -1,0 +1,11 @@
+name    'vmware-day2ops'
+version '0.1.0'
+source 'UNKNOWN'
+author 'vmware'
+license 'Apache License, Version 2.0'
+summary 'Puppet integration with AppD to demo day 2 operations'
+description 'This module shows simple day 2 operations use case'
+project_page 'UNKNOWN'
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'

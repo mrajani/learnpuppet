@@ -1,0 +1,22 @@
+---
+:backends:
+  - yaml
+:hierarchy:
+  - defaults
+  - "%{clientcert}"
+  - "%{operatingsystem}"
+  - "%{environment}"
+  - environments/%{environment}/data/fqdn/%{fqdn}
+  - environments/%{environment}/data/osfamily/%{osfamily}/%{lsbdistcodename}
+  - environments/%{environment}/data/osfamily/%{osfamily}/%{architecture}
+  - environments/%{environment}/data/modules/%{cname}
+  - environments/%{environment}/data/modules/%{caller_module_name}
+  - environments/%{environment}/data/modules/%{module_name}
+  - global
+
+:yaml:
+# datadir is empty here, so hiera uses its defaults:
+# - /var/lib/hiera on *nix
+# - %CommonAppData%\PuppetLabs\hiera\var on Windows
+# When specifying a datadir, make sure the directory exists.
+  :datadir: /etc/puppet/hiera/data

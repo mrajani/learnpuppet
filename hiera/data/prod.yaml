@@ -1,0 +1,3 @@
+---
+syslog_server: 'loghost_prod.corp.iono'
+

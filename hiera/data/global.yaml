@@ -1,0 +1,3 @@
+---
+puppetmaster : 'nodea.iono.corp'
+ntp_servers  : 4.us.ntp.org

@@ -1,0 +1,25 @@
+{
+  "name": "eirc-account",
+  "version": "0.1.0",
+  "source": "UNKNOWN",
+  "author": "eirc",
+  "license": "Apache License, Version 2.0",
+  "summary": "Helpers for managing users and groups with puppet.",
+  "description": "",
+  "project_page": "https://github.com/eirc/puppet-account",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "8cc4055ed41efa70d1ee7225260c48cc",
+    "README.md": "defe4c7f601dee7cc511ce563ac68cfd",
+    "manifests/group.pp": "b4cb824265aead3be08bbe2872ee3990",
+    "manifests/init.pp": "fe65e830b528c5c93054738b77498010",
+    "manifests/user.pp": "37fa2e2aa32271d7f794a321b1811389",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "tests/init.pp": "0bb65bf727ceed43339ff2ba44f27fb1"
+  }
+}
